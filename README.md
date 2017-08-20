@@ -1,3 +1,13 @@
+# Please read me first
+
+Actually, I found a request as below item：
+"Create a separate R code file (plot1.R, plot2.R, etc.) that constructs the corresponding plot, i.e. code in plot1.R constructs the plot1.png plot. Your code file **should include code for reading the data** so that the plot can be fully reproduced. You must also include the code that creates the PNG file."
+
+It mentioned that each script should include code for reading the data, but I think it won't be convenient for code reviewer.Reload the dataset 4 times is time wasting.
+
+So I generate a separate file named "Data_Input.R ", which help you know how to get the dataset in advance.
+Hope you could understand it, thanks!
+
 # EDA_wk1
 EDA week1 Course Project 1 - Making Plots
 
